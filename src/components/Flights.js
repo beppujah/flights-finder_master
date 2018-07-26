@@ -58,7 +58,8 @@ const Flights = props => (
 	 		<div className="f3 lh-copy measure i ml3 mt4 mt0-l pl3 mb4 bl bw1 b--gold">	 	
 	 			<p>{ props.error }</p> 
     			<p>The name of the city has to be written in English.</p>
-    			<p>The app supports only european cities with airports. If you type something that the app will not recognize as a city, the app will brake. Then you have to refresh the browser. Sorry for that.</p>  
+    			<p>The name of a city with multiple words has to be written with small caps and dashes: los-angeles or new-york</p>
+    			<p>If you type something that the app will not recognize as a city, the app will brake. Then you have to refresh the browser. Sorry for that.</p>  
     		</div>
 	 	}
 	</div>
